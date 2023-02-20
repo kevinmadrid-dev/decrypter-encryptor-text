@@ -39,7 +39,7 @@ inserción del texto que será encriptado o desencriptado, y el usuario debe pod
 * Solo se podrá ingresar letras en minúscula y sin acentos.
 
 ## ▶️ Prueba la Aplicación Web - Github Pages
-[Des/Encriptador](https://k3yjey.github.io/Encriptador-de-Texto/)
+* Github Pages => [Des/Encriptador](https://k3yjey.github.io/Encriptador-de-Texto/)
 
 ## 💻 Contacto
 * Linkedin => [Clic aquí](https://www.linkedin.com/in/k3yjey-dev/)
