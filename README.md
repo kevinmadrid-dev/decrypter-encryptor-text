@@ -1,6 +1,5 @@
 # Des/Encriptador de Texto
-
-![image](https://cdn.jsdelivr.net/gh/K3yJey/Encriptador-de-Texto@main/img/homePage_Encriptador.png)
+![image](https://cdn.jsdelivr.net/gh/K3yJey/encriptadorTexto@main/assets/img/homePage_Encriptador.png)
 
 ## 📦 Sobre el Repositorio
 Primer Challenge del programa ONE + Alura. Aplicación Web que permite al usuario encriptar/desencriptar textos; el principal objetivo de este challenge es poner a prueba los conocimientos adquiridos en los cursos de [Principiante en programación].
