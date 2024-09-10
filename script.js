@@ -1,4 +1,5 @@
-/*Función para ocultar el div_pantalla, div_pantalla_copiarid y div_text_area_salida_img, para que no se muestren mientras no son necesarios*/
+/*Función para ocultar el div_pantalla, div_pantalla_copiarid y div_text_area_salida_img, 
+para que no se muestren mientras no son necesarios*/
 function ocultar_div() {
   document.getElementById("div_text_area_salidaid").style.display = "none"
   document.getElementById("div_pantallaid").style.display = "none"
