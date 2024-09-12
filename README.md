@@ -45,7 +45,7 @@ Example:
 
 ### App deploy
 
-[Decrypter/Encryptor Text in Vercel](https://encriptador-texto-k3yjey.vercel.app/)
+[Decrypter/Encryptor Text in Vercel](https://decrypter-encryptor-text.vercel.app/)
 
 ### Figma app layout
 
