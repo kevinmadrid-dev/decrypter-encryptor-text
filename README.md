@@ -4,6 +4,10 @@
 
 Aplicación web para encriptar y desencriptar texto. Desarrollada como parte del Challenge de ONE + Alura, y refactorizada con las mejores prácticas de desarrollo web y un diseño 100% adaptable.
 
+## 📸 Preview del proyecto
+
+![Preview del Portafolio](./assets/img/decrypter-encryptor-text.png)
+
 ### ✨ Características Principales
 
 - ✅ **Diseño Responsive**: Funciona perfectamente en cualquier dispositivo.
