@@ -1,146 +1,150 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-escalable=no, initial-scale=1.0, maxium-scale=1.0, minimum-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Encriptador de Texto</title>
 
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" type="image/png" href="./assets/img/logoBuscando.png" />
+    <link rel="apple-touch-icon" href="./assets/img/logoBuscando.png" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body></body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador de Texto</title>
+
+    <link rel="icon" type="image/png" href="./assets/img/logoBuscando.png" />
+    <link rel="apple-touch-icon" href="./assets/img/logoBuscando.png" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
   </head>
 
   <body>
-    <div class="contenedor_padre">
-      <header>
-        <div class="div_logo">
-          <h1 class="h1_logo">Aplicación Web para Des/Encriptar texto</h1>
-        </div>
+    <!-- Mensajes de notificación -->
+    <div class="message" id="div_pantallaid" style="display: none">
+      <p>Campo vacío. Por favor, ingresa texto.</p>
+    </div>
+
+    <div
+      class="message message--success"
+      id="div_pantalla_copiarid"
+      style="display: none"
+    >
+      <p>¡Texto copiado correctamente!</p>
+    </div>
+
+    <div class="app-container">
+      <header class="header">
+        <h1 class="header__title">Encriptador de Texto</h1>
       </header>
 
-      <main class="main">
-        <div class="div_pantalla" id="div_pantallaid">
-          <div class="div_mensaje_pantalla" id="div_mensaje_pantallaid">
-            Caja vacía, <br />
-            por favor ingresar texto. <br />
-            Clic para cerrar cuadro.
-          </div>
-        </div>
-        <div class="div_pantalla_copiar" id="div_pantalla_copiarid">
-          <div
-            class="div_mensaje_pantalla_copiar"
-            id="div_mensaje_pantalla_copiarid"
-          >
-            Texto copia correctamente, <br />
-            Clic para cerrar cuadro.
-          </div>
-        </div>
-
-        <div class="div_text_area_entrada_btn">
-          <textarea
-            name="text_area_entrada"
-            class="text_area_entrada"
-            id="text_area_entradaid"
-            cols="30"
-            rows="10"
-            autofocus
-          ></textarea>
-
-          <p>Solo letras minúsculas y sin acentos</p>
-
-          <button class="btn_encriptar" id="btn_encriptarid">Encriptar</button>
-
-          <button class="btn_desencriptar" id="btn_desencriptarid">
-            Desencriptar
-          </button>
-
-          <button class="btn_borrar" id="btn_borrarid">Borrar</button>
-        </div>
-
-        <div class="div_text_area_salida_img">
-          <div class="div_img_pTexto" id="div_img_pTextoid">
-            <img
-              src="https://cdn.jsdelivr.net/gh/kevinmadrid-dev/decrypter-encryptor-text@main/assets/img/logoBuscando.png"
-              alt="img_buscando"
-              class="img_imagen_buscando"
-              id="img_imagen_buscandoid"
-            />
-
-            <p class="p_texto_img1">
-              Ningún mensaje fue <br />
-              encontrado
-            </p>
-            <p class="p_texto_img2">
-              Ingresa el texto que desees encriptar o <br />
-              desencriptar
-            </p>
-          </div>
-
-          <div class="div_text_area_salida" id="div_text_area_salidaid">
+      <main class="main-content">
+        <section class="input-section">
+          <div class="textarea-container">
             <textarea
-              name="text_area_salida"
-              class="text_area_salida"
-              id="text_area_salidaid"
-              cols="30"
-              rows="10"
-              disabled
+              id="text_area_entradaid"
+              class="textarea"
+              placeholder="Escribe tu texto aquí..."
+              spellcheck="false"
             ></textarea>
-
-            <button class="btn_copiar" id="btn_copiarid">Copiar</button>
+            <p class="input-hint">⚠️ Solo letras minúsculas y sin acentos</p>
           </div>
-        </div>
-        <script src="/script.js"></script>
-      </main>
-      <div class="footer">
-        <div class="div_footer_links">
-          <ul class="ul_img_footer">
-            <li>
-              <a href="https://github.com/K3yJey" target="_blank" class="a_github">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/K3yJey/encriptadorTexto@main/assets/img/github.png"
-                  alt=""
-                />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.facebook.com/kevinmadrid"
-                target="_blank"
-                class="a_facebook"
-              >
-                <img
-                  src="https://cdn.jsdelivr.net/gh/K3yJey/encriptadorTexto@main/assets/img/facebook.png"
-                  alt=""
-                />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/kevinmadrid-dev/"
-                target="_blank"
-                class="a_linkedin"
-              >
-                <img
-                  src="https://cdn.jsdelivr.net/gh/K3yJey/encriptadorTexto@main/assets/img/linkeding.png"
-                  alt=""
-                />
-              </a>
-            </li>
-          </ul>
-        </div>
 
-        <div class="div_footer_copy">
-          <p class="p_copy">Kevin Madrid - Copyright © 2024</p>
+          <div class="buttons-container">
+            <button type="button" id="btn_encriptarid" class="btn btn--primary">
+              🔒 Encriptar
+            </button>
+
+            <button
+              type="button"
+              id="btn_desencriptarid"
+              class="btn btn--secondary"
+            >
+              🔓 Desencriptar
+            </button>
+
+            <button type="button" id="btn_borrarid" class="btn btn--clear">
+              🗑️ Limpiar
+            </button>
+          </div>
+        </section>
+
+        <section class="output-section">
+          <div class="output-placeholder" id="div_img_pTextoid">
+            <div class="placeholder-content">
+              <div class="placeholder-icon">🔍</div>
+
+              <h3>Ningún mensaje fue encontrado</h3>
+
+              <p>Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+          </div>
+
+          <div
+            class="output-container"
+            id="div_text_area_salidaid"
+            style="display: none"
+          >
+            <div class="textarea-container">
+              <textarea
+                id="text_area_salidaid"
+                class="textarea textarea--output"
+                readonly
+              ></textarea>
+            </div>
+
+            <button type="button" id="btn_copiarid" class="btn btn--copy">
+              📋 Copiar
+            </button>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="social-links">
+          <a
+            href="https://github.com/kevinmadrid-dev"
+            target="_blank"
+            rel="noopener"
+            class="social-link"
+          >
+            <img src="./assets/img/github.png" alt="GitHub" />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/kevinmadrid-dev/"
+            target="_blank"
+            rel="noopener"
+            class="social-link"
+          >
+            <img src="./assets/img/linkeding.png" alt="LinkedIn" />
+          </a>
         </div>
-      </div>
+        
+        <p class="footer__copy">© 2025 Kevin Madrid.</p>
+      </footer>
     </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>

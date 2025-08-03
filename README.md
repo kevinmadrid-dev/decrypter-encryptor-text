@@ -1,56 +1,89 @@
-# Decrypter/Encryptor Text
+# 🔐 Encriptador de Texto - Refactorizado
 
-### Description
+### Descripción
 
-Challenge of the ONE + Alura program. Web application that allows the user to encrypt/decrypt texts.
+Aplicación web para encriptar y desencriptar texto. Desarrollada como parte del Challenge de ONE + Alura, y refactorizada con las mejores prácticas de desarrollo web y un diseño 100% adaptable.
 
-### Technologies
+### ✨ Características Principales
 
-- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+- ✅ **Diseño Responsive**: Funciona perfectamente en cualquier dispositivo.
+- ✅ **Validación en Tiempo Real**: Solo acepta letras minúsculas y espacios.
+- ✅ **Modo Oscuro**: Soporte automático según preferencias del sistema.
+- ✅ **Animaciones Suaves**: Feedback visual mejorado.
 
-### Aditionals Commets
+### 🛠️ Tecnologías Utilizadas
 
-Project completed.
+- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-## Challenge Requirements
+### 🎯 Funcionalidades
 
-- Must work with lowercase letters only.
-- No letters with accents or special characters must be used.
-- Must be possible to convert a word for the encrypted version also return an encrypted word for its original version.
+#### Encriptación/Desencriptación
 
-Example:
-“gato” => ‘gaitober’.
-“gaitober” => ‘gato’.
+- **Encriptar**: Convierte texto plano en texto encriptado.
+- **Desencriptar**: Convierte texto encriptado de vuelta al original.
+- **Validación**: Solo permite letras minúsculas y espacios.
+- **Feedback**: Mensajes claros para el usuario.
 
-- The page must have fields for inserting the text to be encrypted or decrypted, and the user must be able to choose between the two options.
-- The result should be displayed on the screen.
+### 🔑 Reglas de Encriptación
 
-## Extra
+| Letra | Conversión |
+| ----- | ---------- |
+| `e`   | `enter`    |
+| `i`   | `imes`     |
+| `a`   | `ai`       |
+| `o`   | `ober`     |
+| `u`   | `ufat`     |
 
-- A button to copy the encrypted/decrypted text to the transfer section, i.e. with the same functionality as “ctrl+C” or the “copy” option in the applications menu.
+### 🚀 Instalación y Uso
 
-## Keys
+⭣ 1. Clonar el repositorio
 
-- The letter “e” is converted to “enter”.
-- The letter “i” is converted to “imes”.
-- The letter “a” is converted to “ai”.
-- The letter “o” is converted to “ober”.
-- The letter “u” is converted to “ufat”.
+```console
+git clone https://github.com/K3yJey/encriptadorTexto.git
+```
 
-## Validation
+⭣ 2. Entra a la carpeta del repositorio
 
-- Only lowercase letters without accents may be entered.
+```console
+cd portfolio
+```
 
-### App deploy
+3. Abrir en navegador
 
-[Decrypter/Encryptor Text in Vercel](https://decrypter-encryptor-text.vercel.app/)
+```console
+http://localhost:8000
+```
 
-### Figma app layout
+### 📋 Validaciones
 
-[Decrypter/Encryptor Text in Figma](https://www.figma.com/file/xorE5J3PxE67s6MeYjjhsK/Encriptador-de-Texto---Challenge-01?node-id=0%3A1&t=i3x27HxeSU4fHGhc-1)
+- ❌ **NO se permiten**:
 
-### Developer contact
+  - Letras mayúsculas
+  - Acentos o tildes
+  - Caracteres especiales
+  - Números
 
-[LinkedIn](https://www.linkedin.com/in/kevinmadrid-dev/)
+#### Problemas Comunes
+
+1. **Texto no se encripta**
+
+   - Verificar que solo contiene letras minúsculas
+   - Revisar que no esté vacío
+
+2. **No funciona el copiado**
+
+   - Verificar permisos del navegador
+   - Usar https:// o localhost
+
+3. **Layout se ve mal**
+   - Verificar que CSS se carga correctamente
+   - Comprobar compatibilidad del navegador
+
+### Contacto
+
+- GitHub: [@K3yJey](https://github.com/K3yJey)
+- LinkedIn: [kevinmadrid-dev](https://www.linkedin.com/in/kevinmadrid-dev/)
+
+⭐ Si te gusta este proyecto, ¡dale una estrella en GitHub!
