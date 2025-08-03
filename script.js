@@ -62,9 +62,6 @@ class TextEncryptor {
 
     // Entrada de texto en tiempo real
     this.elements.input?.addEventListener("input", () => this.validateInput())
-
-    // Atajos de teclado
-    document.addEventListener("keydown", (e) => this.handleKeyboardShortcuts(e))
   }
 
   setupInputValidation() {
