@@ -1,4 +1,4 @@
-# 🔐 Encriptador de Texto - Refactorizado
+# 🔐 Encriptador de Texto
 
 ### Descripción
 
@@ -41,7 +41,7 @@ Aplicación web para encriptar y desencriptar texto. Desarrollada como parte del
 ⭣ 1. Clonar el repositorio
 
 ```console
-git clone https://github.com/K3yJey/encriptadorTexto.git
+git clone https://github.com/kevinmadrid-dev/decrypter-encryptor-text.git
 ```
 
 ⭣ 2. Entra a la carpeta del repositorio
@@ -83,7 +83,7 @@ http://localhost:8000
 
 ### Contacto
 
-- GitHub: [@K3yJey](https://github.com/K3yJey)
+- GitHub: [kevinmadrid-dev](https://github.com/kevinmadrid-dev)
 - LinkedIn: [kevinmadrid-dev](https://www.linkedin.com/in/kevinmadrid-dev/)
 
 ⭐ Si te gusta este proyecto, ¡dale una estrella en GitHub!
