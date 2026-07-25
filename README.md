@@ -6,7 +6,7 @@ Aplicación web para encriptar y desencriptar texto. Desarrollada como parte del
 
 ## 📸 Preview del proyecto
 
-![Preview del Portafolio](./assets/img/decrypter-encryptor-text.png)
+![Preview del Portafolio]
 
 ### ✨ Características Principales
 
