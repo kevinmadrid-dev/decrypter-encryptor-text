@@ -63,7 +63,6 @@ http://localhost:8000
 ### 📋 Validaciones
 
 - ❌ **NO se permiten**:
-
   - Letras mayúsculas
   - Acentos o tildes
   - Caracteres especiales
@@ -72,12 +71,10 @@ http://localhost:8000
 #### Problemas Comunes
 
 1. **Texto no se encripta**
-
    - Verificar que solo contiene letras minúsculas
    - Revisar que no esté vacío
 
 2. **No funciona el copiado**
-
    - Verificar permisos del navegador
    - Usar https:// o localhost
 
