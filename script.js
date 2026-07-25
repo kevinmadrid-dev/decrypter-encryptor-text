@@ -275,7 +275,7 @@ class TextEncryptor {
 
   showElement(element) {
     if (element) {
-      element.style.display = "block"
+      element.style.display = "flex"
     }
   }
 
